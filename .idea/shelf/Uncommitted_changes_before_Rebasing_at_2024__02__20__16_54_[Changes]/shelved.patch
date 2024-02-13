@@ -1,0 +1,249 @@
+Index: .idea/php.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/php.xml b/.idea/php.xml
+new file mode 100644
+--- /dev/null	(date 1708444377753)
++++ b/.idea/php.xml	(date 1708444377753)
+@@ -0,0 +1,22 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="MessDetectorOptionsConfiguration">
++    <option name="transferred" value="true" />
++  </component>
++  <component name="PHPCSFixerOptionsConfiguration">
++    <option name="transferred" value="true" />
++  </component>
++  <component name="PHPCodeSnifferOptionsConfiguration">
++    <option name="highlightLevel" value="WARNING" />
++    <option name="transferred" value="true" />
++  </component>
++  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
++    <option name="suggestChangeDefaultLanguageLevel" value="false" />
++  </component>
++  <component name="PhpStanOptionsConfiguration">
++    <option name="transferred" value="true" />
++  </component>
++  <component name="PsalmOptionsConfiguration">
++    <option name="transferred" value="true" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1708444377763)
++++ b/.idea/vcs.xml	(date 1708444377763)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1708444377786)
++++ b/.idea/.gitignore	(date 1708444377786)
+@@ -0,0 +1,8 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Editor-based HTTP Client requests
++/httpRequests/
++# Datasource local storage ignored files
++/dataSources/
++/dataSources.local.xml
+Index: .idea/ModernTechnologiak.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/ModernTechnologiak.iml b/.idea/ModernTechnologiak.iml
+new file mode 100644
+--- /dev/null	(date 1708444377796)
++++ b/.idea/ModernTechnologiak.iml	(date 1708444377796)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="WEB_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: oraimunka2/index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/oraimunka2/index.html b/oraimunka2/index.html
+new file mode 100644
+--- /dev/null	(date 1708444141601)
++++ b/oraimunka2/index.html	(date 1708444141601)
+@@ -0,0 +1,13 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <meta name="viewport" content="width=device-width, initial-scale=1.0">
++    <title>Document</title>
++</head>
++<body>
++    Kutya
++    <script>script.js</script>
++    Medve
++</body>
++</html>
+Index: oraimunka2/script.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/oraimunka2/script.js b/oraimunka2/script.js
+new file mode 100644
+--- /dev/null	(date 1708444109075)
++++ b/oraimunka2/script.js	(date 1708444109075)
+@@ -0,0 +1,58 @@
++// Háromféle idézőjel ' " `
++let text = 'Hello There!'
++console.log(text)
++let text2 = "Luke's lightsaber"
++let text3 = 'Obi-Wan said: "May the force be with you"'
++let text4 = `Obi-Wan said: "This is Luke's lightaber"`
++let text5 = "Obi-Wan said: \"This is Luke's lightaber\""
++let age = 27
++console.log('Gergő ' + age + ' éves.')
++console.log(`Gergő ${age} éves.`)
++
++let animals = ['tigris', 'medve', 'sas', 'macska']
++console.log(animals)
++animals.push('kutya')
++console.log(animals)
++console.log(animals[0])
++
++// C# alapú
++for (let i = 0; i<5; i++){
++
++}
++
++let i = 0
++while(i < 5){
++    i++
++}
++
++for(let animal of animals){
++    console.log(animal)
++}
++
++for(let i in animals){
++    console.log(i)
++}
++
++// vannak fura tulajdonságai
++var something = 'Ezt nem használjuk'
++
++const something2 = 'Ezt szoktuk még használni, de nem lehet csak úgy módosítani'
++//something2 = 'Ilyet nem szabad csinálni'
++const cities = ['Budapest', 'Bécs', 'Berlin']
++cities.push('Brüsszel')
++const cities2 = cities
++cities.push('Basel')
++console.log(cities2)
++const cities3 = JSON.stringify(cities)
++console.log(cities3)
++cities.push('Bentpétervár')
++console.log(cities3)
++
++////////////////////////////////////////
++console.log(document.body)
++console.log(document.body.innerText)
++console.log(document.body.innerHTML)
++document.body.innerText = 'Tiger'
++//document.body.innerText = '<b>Tiger</b>'
++//document.body.innerHTML = '<b>Tiger</b>'
++document.body.innerHTML += '<b>Tiger</b>'
+Index: .vscode/launch.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.vscode/launch.json b/.vscode/launch.json
+new file mode 100644
+--- /dev/null	(date 1708442749819)
++++ b/.vscode/launch.json	(date 1708442749819)
+@@ -0,0 +1,41 @@
++{
++    // Use IntelliSense to learn about possible attributes.
++    // Hover to view descriptions of existing attributes.
++    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
++    "version": "0.2.0",
++    "configurations": [
++        
++        
++        {
++            "name": "Launch Edge",
++            "request": "launch",
++            "type": "msedge",
++            "url": "http://localhost:8080",
++            "webRoot": "${workspaceFolder}"
++        },
++        {
++            "name": "Attach to Edge",
++            "port": 9222,
++            "request": "attach",
++            "type": "msedge",
++            "webRoot": "${workspaceFolder}"
++        },
++        {
++            "name": "Launch Chrome",
++            "request": "launch",
++            "type": "chrome",
++            "url": "http://localhost:8080",
++            "webRoot": "${workspaceFolder}"
++        },
++        {
++            "name": "Attach to Chrome",
++            "port": 9222,
++            "request": "attach",
++            "type": "chrome",
++            "webRoot": "${workspaceFolder}"
++        }
++        
++
++    ]
++
++}
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1708444377739)
++++ b/.idea/modules.xml	(date 1708444377739)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/ModernTechnologiak.iml" filepath="$PROJECT_DIR$/.idea/ModernTechnologiak.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
