@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee25cdc6-289d-4e81-aa1f-df012215caae" name="Changes" comment="second">
+      <change afterPath="$PROJECT_DIR$/orai3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orai3/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oraimunka4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oraimunka4/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oraimunka2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/oraimunka2/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ea2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/ea2/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,12 +32,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "GreenDyonth"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GreenDyonth&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -42,10 +47,14 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ea2/script.js" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/oraimunka2/script.js" root0="SKIP_INSPECTION" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
@@ -71,10 +80,28 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localRunNotPublishedPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="C:\Users\green\AppData\Local\Temp\qodana_output\qodana.sarif.json" />
+        <option name="reportGuid" value="efcfd7ff-4542-40b7-8d44-748a5fcdde67" />
+        <option name="reportName" value="ModernTechnologiak/qodana/2024-02-28" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription localRun="true" path="C:\Users\green\AppData\Local\Temp\qodana_output\qodana.sarif.json" reportGuid="efcfd7ff-4542-40b7-8d44-748a5fcdde67" reportId="ModernTechnologiak/qodana/2024-02-28" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ModernTechnologiak/oraimunka/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -101,7 +128,14 @@
       <option name="presentableId" value="Default" />
       <updated>1708443949484</updated>
       <workItem from="1708443951772" duration="209000" />
-      <workItem from="1708444499446" duration="1609000" />
+      <workItem from="1708444499446" duration="1991000" />
+      <workItem from="1708506223685" duration="2739000" />
+      <workItem from="1708514404206" duration="4270000" />
+      <workItem from="1708608159758" duration="20000" />
+      <workItem from="1708800664839" duration="791000" />
+      <workItem from="1709047195063" duration="3188000" />
+      <workItem from="1709110997605" duration="8496000" />
+      <workItem from="1709138745569" duration="4922000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <option name="closed" value="true" />
@@ -119,11 +153,54 @@
       <option name="project" value="LOCAL" />
       <updated>1708444967961</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="second">
+      <option name="closed" value="true" />
+      <created>1708446330048</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708446330048</updated>
+    </task>
+    <task id="LOCAL-00004" summary="second">
+      <option name="closed" value="true" />
+      <created>1708511186853</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708511186853</updated>
+    </task>
+    <task id="LOCAL-00005" summary="second">
+      <option name="closed" value="true" />
+      <created>1708519424282</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708519424282</updated>
+    </task>
+    <task id="LOCAL-00006" summary="second">
+      <option name="closed" value="true" />
+      <created>1708519452647</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1708519452647</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
